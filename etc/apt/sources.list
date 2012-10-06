@@ -1,0 +1,12 @@
+# deb cdrom:[Debian GNU/Linux 6.0.0 _Squeeze_ - Official i386 NETINST Binary-1 20110205-14:34]/ squeeze main
+
+#deb cdrom:[Debian GNU/Linux 6.0.0 _Squeeze_ - Official i386 NETINST Binary-1 20110205-14:34]/ squeeze main
+
+deb http://ftp.nl.debian.org/debian/ squeeze main
+deb-src http://ftp.nl.debian.org/debian/ squeeze main
+
+deb http://security.debian.org/ squeeze/updates main
+deb-src http://security.debian.org/ squeeze/updates main
+
+deb http://ftp.nl.debian.org/debian/ squeeze-updates main
+deb-src http://ftp.nl.debian.org/debian/ squeeze-updates main
