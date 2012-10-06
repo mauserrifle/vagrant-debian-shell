@@ -5,34 +5,35 @@ debian squeeze.
 
 Squeeze can be obtained @ <http://www.vagrantbox.es/>
 
-## update-package-manager.sh 
+## Shell files
+
+### update-package-manager.sh 
 
 Updates apt with the file within `etc/apt/sources.list`.
 
-## install-lamp.sh
+### install-lamp.sh
 
-Contains apache2, php5, mysql-server, mysql-client, openssl,
+Installs apache2, php5, mysql-server, mysql-client, openssl,
 php-pear, pecl_http, sendmail, mod_rewrite, ssl.
 
-## install-nfs.sh
+### install-nfs.sh
 
-Contains the nfs client. Required when using the vagrant NFS setting.
+Installs the nfs client. Required when using the vagrant NFS setting.
 
-## install-phpmyadmin.sh 
+### install-phpmyadmin.sh 
 
-Contains a phpmyadmin with pre-answers questions.
+Installs phpmyadmin with pre-answers questions.
 
-## install-wkhtmltopdf.sh
+### install-wkhtmltopdf.sh
 
 Sets up wkhtmltopdf. The binary should be placed in 
 `opt/wkhtmltopdf/wkhtmltopdf`
 
 <http://code.google.com/p/wkhtmltopdf/>)
 
-## cleanup.sh
+### cleanup.sh
 
 Cleans up downloaded packages.
-
 
 ## Example vagrantfile
 
