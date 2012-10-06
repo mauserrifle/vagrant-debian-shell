@@ -29,7 +29,7 @@ Installs phpmyadmin with pre-answers questions.
 Sets up wkhtmltopdf. The binary should be placed in 
 `opt/wkhtmltopdf/wkhtmltopdf`
 
-<http://code.google.com/p/wkhtmltopdf/>)
+<http://code.google.com/p/wkhtmltopdf/>
 
 ### cleanup.sh
 
