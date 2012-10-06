@@ -1,7 +1,7 @@
 # Vagrant debian shell
 
-This is a collection of shell scripts I am using setting up a LAMP box with 
-debian squeeze.
+This is a collection of shell scripts I am using setting up a LAMP vagrant box 
+with debian squeeze.
 
 Squeeze can be obtained @ <http://www.vagrantbox.es/>
 
@@ -29,7 +29,7 @@ Installs phpmyadmin with pre-answers questions.
 Sets up wkhtmltopdf. The binary should be placed in 
 `opt/wkhtmltopdf/wkhtmltopdf`
 
-<http://code.google.com/p/wkhtmltopdf/>
+<http://code.google.com/p/wkhtmltopdf/>	
 
 ### cleanup.sh
 
