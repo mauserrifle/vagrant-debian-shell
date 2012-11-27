@@ -31,6 +31,15 @@ Sets up wkhtmltopdf. The binary should be placed in
 
 <http://code.google.com/p/wkhtmltopdf/>	
 
+### install-sphinx.sh
+
+Installs sphinx with an custom sphinx.conf file `etc/sphinxsearch/sphinx.conf`. 
+Make sure you edit this file.
+
+Will also copy a updated `etc/default/sphinxsearch` so sphinx will 
+automatically start on booting the box.
+
+
 ### cleanup.sh
 
 Cleans up downloaded packages.
@@ -38,5 +47,5 @@ Cleans up downloaded packages.
 ## Example vagrantfile
 
     Vagrant::Config.run do |config|
-        config.vm.provision :shell, :inline => "sh /vagrant/update-package-manager.sh; sh /vagrant/install-nfs.sh; sh /vagrant/install-lamp.sh; sh /vagrant/install-phpmyadmin.sh; sh /vagrant/install-wkhtmltopdf.sh; sh /vagrant/cleanup.sh;"
+        config.vm.provision :shell, :inline => "sh /vagrant/update-package-manager.sh; sh /vagrant/install-nfs.sh; sh /vagrant/install-lamp.sh; sh /vagrant/install-phpmyadmin.sh; sh /vagrant/install-wkhtmltopdf.sh; sh /vagrant/install-sphinx.sh; sh /vagrant/cleanup.sh;"
     end
