@@ -33,10 +33,10 @@ Sets up wkhtmltopdf. The binary should be placed in
 
 ### install-sphinx.sh
 
-Installs sphinx with an custom sphinx.conf file `etc/sphinxsearch/sphinx.conf`. 
-Make sure you edit this file.
+Installs sphinx(search) with a custom configuration file 
+`etc/sphinxsearch/sphinx.conf`. Make sure you edit this file.
 
-Will also copy a updated `etc/default/sphinxsearch` so sphinx will 
+Will also copy an updated `etc/default/sphinxsearch` file so sphinx will 
 automatically start on booting the box.
 
 
