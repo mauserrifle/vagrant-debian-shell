@@ -13,4 +13,7 @@ then
 
 	# Fix libXrender dependency
 	ln -s /usr/lib/libXrender.so /usr/local/lib/libXrender.so.1
+
+	# Install mscorefonts (Only works when contrib is in apt source file)
+	apt-get -y install ttf-mscorefonts-installer
 fi
